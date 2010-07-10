@@ -1,0 +1,439 @@
+TSimple Calculator
+v7
+r0
+t299840889.645506
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Info.plist" Simple_Calculator-Info.plist
+cCopyStringsFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator" normal x86_64
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator" normal i386
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator" normal ppc
+cCreateUniversalBinary "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator" normal "x86_64 i386 ppc"
+cGenerateDSYMFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app.dSYM" "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator"
+cTouch "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/InfoPlist.strings
+c000000004C2EDCD4000000000000002D
+t1278139604
+s45
+
+N/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib
+c000000004C2EE92F0000000000030F73
+t1278142767
+s200563
+
+N/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.h
+c000000004C2EE78A0000000000000141
+t1278142346
+s321
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m
+c000000004C2EFC7B000000000000017C
+t1278147707
+s380
+i"FuseBox.h"
+
+N/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.h
+c000000004C2EDCD4000000000000014D
+t1278139604
+s333
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m
+c000000004C2EDCD4000000000000018C
+t1278139604
+s396
+i"Simple_CalculatorAppDelegate.h"
+
+N/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch
+c000000004C2EDCD400000000000000A5
+t1278139604
+s165
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app
+t1278148089
+s102
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app.dSYM
+t1278148089
+s102
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Info.plist
+t1278148076
+s916
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator
+t1278148089
+s55092
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/PkgInfo
+t1278148076
+s8
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1278148076
+s92
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/MainMenu.nib
+t1278148077
+s38128
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/FuseBox.o
+t1278148088
+s6236
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator
+t1278148088
+s18520
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator.LinkFileList
+c000000004C2EFDEC00000000000001BC
+t1278148076
+s444
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple_CalculatorAppDelegate.o
+t1278148088
+s15412
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/main.o
+t1278148088
+s4864
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/FuseBox.o
+t1278148089
+s6340
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator
+t1278148089
+s14132
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator.LinkFileList
+c000000004C2EFDEC00000000000001B9
+t1278148076
+s441
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple_CalculatorAppDelegate.o
+t1278148089
+s15300
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/main.o
+t1278148088
+s4896
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/FuseBox.o
+t1278148088
+s7928
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator
+t1278148088
+s15528
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator.LinkFileList
+c000000004C2EFDEC00000000000001C2
+t1278148076
+s450
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple_CalculatorAppDelegate.o
+t1278148088
+s21296
+
+N/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/main.o
+t1278148088
+s5064
+
+N/Users/jonathancarnie/Documents/Simple Calculator/main.m
+c000000004C2EDCD400000000000000FB
+t1278139604
+s251
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch.gch
+t1278148083
+s52922128
+
+N/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch.gch
+t1278148083
+s55559984
+
+N/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch.gch
+t1278148087
+s52794960
+
+NSimple_Calculator-Info.plist
+c000000004C2EDCD400000000000003EA
+t1278139604
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies299840876#299840876#0(0"0(0#1#0"8622309824#0"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s299840888.398440
+e299840888.650064
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/FuseBox.o
+x/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m299840888#299840888#0(0"0(0#0#59"/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m8605921440#1829"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/i386" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/FuseBox.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s299840888.394511
+e299840888.632881
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple_CalculatorAppDelegate.o
+x/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m299840888#299840888#0(0"0(0#0#80"/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m8617955936#1871"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/i386" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple_CalculatorAppDelegate.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s299840888.137901
+e299840888.394374
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/main.o
+x/Users/jonathancarnie/Documents/Simple Calculator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jonathancarnie/Documents/Simple Calculator/main.m299840888#299840888#0(0"0(0#0#56"/Users/jonathancarnie/Documents/Simple Calculator/main.m8605595200#1823"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/i386" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/main.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s299840888.956741
+e299840889.198297
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/FuseBox.o
+x/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m299840888#299840889#0(0"0(0#0#59"/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m8619612320#1836"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/ppc" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/FuseBox.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s299840888.909570
+e299840889.133621
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple_CalculatorAppDelegate.o
+x/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m299840888#299840889#0(0"0(0#0#80"/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m8599037344#1878"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/ppc" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple_CalculatorAppDelegate.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s299840888.633029
+e299840888.908588
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/main.o
+x/Users/jonathancarnie/Documents/Simple Calculator/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jonathancarnie/Documents/Simple Calculator/main.m299840888#299840888#0(0"0(0#0#56"/Users/jonathancarnie/Documents/Simple Calculator/main.m8605314400#1830"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/ppc" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/main.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/main.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/FuseBox.o" "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s299840888.096618
+e299840888.335955
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/FuseBox.o
+x/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m299840888#299840888#0(0"0(0#0#59"/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m8613771008#1835"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/x86_64" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/FuseBox.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/FuseBox.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple_CalculatorAppDelegate.o" "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s299840887.879032
+e299840888.137769
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple_CalculatorAppDelegate.o
+x/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m299840887#299840888#0(0"0(0#0#80"/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m8617982080#1877"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/x86_64" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_CalculatorAppDelegate.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple_CalculatorAppDelegate.o"0#
+
+CCompileC "build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/main.o" "/Users/jonathancarnie/Documents/Simple Calculator/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s299840887.877494
+e299840888.096464
+r1
+xCompileC
+xbuild/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/main.o
+x/Users/jonathancarnie/Documents/Simple Calculator/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jonathancarnie/Documents/Simple Calculator/main.m299840887#299840888#0(0"0(0#0#56"/Users/jonathancarnie/Documents/Simple Calculator/main.m8621858560#1829"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/x86_64" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -include /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch -c "/Users/jonathancarnie/Documents/Simple Calculator/main.m" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib"
+s299840876.935233
+e299840877.447756
+r1
+xCompileXIB
+x/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib299840876#299840877#0(0"0(0#0#76"/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib8617533632#415"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s299840876.933531
+e299840876.999298
+r1
+xCopyStringsFile
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings299840876#299840876#0(0"0(0#0#81"/Users/jonathancarnie/Documents/Simple Calculator/English.lproj/InfoPlist.strings8617605696#403"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Resources/English.lproj"0#
+
+CCreateUniversalBinary "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator" normal "x86_64 i386 ppc"
+s299840889.535857
+e299840889.571607
+r1
+xCreateUniversalBinary
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@117"CreateUniversalBinary "build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator" normal "x86_64 i386 ppc"299840889#299840889#0(0"0(0#0#65"/Users/jonathancarnie/Documents/Simple Calculator/x86_64 i386 ppc8618060320#671"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    /usr/bin/lipo -create "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator" "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator" "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator" -output "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator"0#
+
+CGenerateDSYMFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app.dSYM" "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator"
+s299840889.571741
+e299840889.641474
+r1
+xGenerateDSYMFile
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app.dSYM
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator
+lSLF07#2@130"GenerateDSYMFile "build/Release/Simple Calculator.app.dSYM" "build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator"299840889#299840889#0(0"0(0#0#118"/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator8616871040#308"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    /Developer/usr/bin/dsymutil "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/MacOS/Simple Calculator" -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app.dSYM"0#
+
+CLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator" normal i386
+s299840888.650187
+e299840888.956590
+r1
+xLd
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator
+xnormal
+xi386
+lSLF07#2@154"Link /Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator299840888#299840888#0(0"0(0#0#0"8605181312#692"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" -filelist "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/i386/Simple Calculator"0#
+
+CLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator" normal ppc
+s299840889.198423
+e299840889.535610
+r1
+xLd
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator
+xnormal
+xppc
+lSLF07#2@153"Link /Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator299840889#299840889#0(0"0(0#0#0"8621769312#689"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" -filelist "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/ppc/Simple Calculator"0#
+
+CLd "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator" normal x86_64
+s299840888.336083
+e299840888.398294
+r1
+xLd
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator
+xnormal
+xx86_64
+lSLF07#2@156"Link /Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator299840888#299840888#0(0"0(0#0#0"8605340096#698"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" -filelist "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Objects-normal/x86_64/Simple Calculator"0#
+
+CProcessInfoPlistFile "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Info.plist" Simple_Calculator-Info.plist
+s299840876.926013
+e299840876.933394
+r1
+xProcessInfoPlistFile
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Info.plist
+xSimple_Calculator-Info.plist
+lSLF07#2@36"Process Simple_Calculator-Info.plist299840876#299840876#0(0"0(0#0#78"/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator-Info.plist8617954496#383"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    builtin-infoPlistUtility Simple_Calculator-Info.plist -genpkginfo "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s299840877.447924
+e299840883.195292
+r1
+xProcessPCH
+x/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch.gch
+xSimple_Calculator_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile Simple_Calculator_Prefix.pch299840877#299840883#0(0"0(0#0#78"/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch8615993856#1710"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/x86_64" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch" -o /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-aviuxprbhzjtfggkohwhsfgqtpxd/Simple_Calculator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299840877.449315
+e299840884.038804
+r1
+xProcessPCH
+x/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch.gch
+xSimple_Calculator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile Simple_Calculator_Prefix.pch299840877#299840884#0(0"0(0#0#78"/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch8621507808#1706"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/i386" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch" -o /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-cdzwevfytorhdnbkppwcxkhwjewq/Simple_Calculator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch.gch Simple_Calculator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s299840883.195578
+e299840887.877291
+r1
+xProcessPCH
+x/var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch.gch
+xSimple_Calculator_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile Simple_Calculator_Prefix.pch299840883#299840887#0(0"0(0#0#78"/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch8616957056#1714"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-generated-files.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-own-target-headers.hmap" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-all-target-headers.hmap" -iquote "/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/Simple Calculator-project-headers.hmap" "-F/Users/jonathancarnie/Documents/Simple Calculator/build/Release" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Release/include" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources/ppc" "-I/Users/jonathancarnie/Documents/Simple Calculator/build/Simple Calculator.build/Release/Simple Calculator.build/DerivedSources" -c "/Users/jonathancarnie/Documents/Simple Calculator/Simple_Calculator_Prefix.pch" -o /var/folders/Kx/Kx7YFBY4EJyR-Hk4GXLJ7++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Simple_Calculator_Prefix-dclrlbyakfumzratrunnzwkiluuy/Simple_Calculator_Prefix.pch.gch0#
+
+CTouch "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app"
+s299840889.641597
+e299840889.645348
+r1
+xTouch
+x/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app
+lSLF07#2@91"Touch /Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app299840889#299840889#0(0"0(0#0#0"8615292704#169"    cd "/Users/jonathancarnie/Documents/Simple Calculator"    /usr/bin/touch -c "/Users/jonathancarnie/Documents/Simple Calculator/build/Release/Simple Calculator.app"0#
+
