@@ -6,14 +6,63 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E308A0341216601B00EDF5F8 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
+		E308A0351216601B00EDF5F8 /* empty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = empty.c; sourceTree = "<group>"; };
+		E308A03A1216607200EDF5F8 /* empty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E308A03D1216607200EDF5F8 /* empty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "empty-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E308A0381216607200EDF5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		E308A00912165D9100EDF5F8 = {
 			isa = PBXGroup;
 			children = (
+				E308A0341216601B00EDF5F8 /* empty.h */,
+				E308A0351216601B00EDF5F8 /* empty.c */,
+				E308A03B1216607200EDF5F8 /* Products */,
+				E308A03D1216607200EDF5F8 /* empty-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
+		E308A03B1216607200EDF5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E308A03A1216607200EDF5F8 /* empty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E308A0391216607200EDF5F8 /* empty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E308A0401216607200EDF5F8 /* Build configuration list for PBXNativeTarget "empty" */;
+			buildPhases = (
+				E308A0361216607200EDF5F8 /* Resources */,
+				E308A0371216607200EDF5F8 /* Sources */,
+				E308A0381216607200EDF5F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = empty;
+			productName = empty;
+			productReference = E308A03A1216607200EDF5F8 /* empty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E308A00B12165D9100EDF5F8 /* Project object */ = {
@@ -25,12 +74,34 @@
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = E308A00912165D9100EDF5F8;
+			productRefGroup = E308A03B1216607200EDF5F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E308A0391216607200EDF5F8 /* empty */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E308A0361216607200EDF5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E308A0371216607200EDF5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		E308A00C12165D9100EDF5F8 /* Debug */ = {
@@ -47,6 +118,55 @@
 			};
 			name = Release;
 		};
+		E308A03E1216607200EDF5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "empty-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = empty;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		E308A03F1216607200EDF5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "empty-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = empty;
+				SDKROOT = iphoneos4.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -55,6 +175,15 @@
 			buildConfigurations = (
 				E308A00C12165D9100EDF5F8 /* Debug */,
 				E308A00D12165D9100EDF5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E308A0401216607200EDF5F8 /* Build configuration list for PBXNativeTarget "empty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E308A03E1216607200EDF5F8 /* Debug */,
+				E308A03F1216607200EDF5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
