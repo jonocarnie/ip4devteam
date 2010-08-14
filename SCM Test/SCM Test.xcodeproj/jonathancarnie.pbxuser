@@ -41,9 +41,9 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					340,
+					422,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -67,7 +67,7 @@
 					406,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -90,6 +90,10 @@
 			E308A04C1216610900EDF5F8 /* PBXTextBookmark */ = E308A04C1216610900EDF5F8 /* PBXTextBookmark */;
 			E308A04D1216610A00EDF5F8 /* PBXTextBookmark */ = E308A04D1216610A00EDF5F8 /* PBXTextBookmark */;
 			E308A0501216611F00EDF5F8 /* PBXTextBookmark */ = E308A0501216611F00EDF5F8 /* PBXTextBookmark */;
+			E308A0641216646700EDF5F8 /* PlistBookmark */ = E308A0641216646700EDF5F8 /* PlistBookmark */;
+			E308A0651216646700EDF5F8 /* PBXTextBookmark */ = E308A0651216646700EDF5F8 /* PBXTextBookmark */;
+			E308A0661216646700EDF5F8 /* PBXTextBookmark */ = E308A0661216646700EDF5F8 /* PBXTextBookmark */;
+			E308A0671216646700EDF5F8 /* PBXTextBookmark */ = E308A0671216646700EDF5F8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E308A00F12165D9100EDF5F8 /* Source Control */;
 		userBuildSettings = {
@@ -120,7 +124,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {624, 260}}";
 			sepNavSelRange = "{230, 0}";
-			sepNavVisRange = "{31, 200}";
+			sepNavVisRange = "{28, 202}";
 		};
 	};
 	E308A0391216607200EDF5F8 /* empty */ = {
@@ -205,5 +209,46 @@
 		rType = 0;
 		vrLen = 200;
 		vrLoc = 31;
+	};
+	E308A0641216646700EDF5F8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E308A03D1216607200EDF5F8 /* empty-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/LeopardCub/Scratch/SCM Test/empty-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E308A0651216646700EDF5F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E308A0351216601B00EDF5F8 /* empty.c */;
+		name = "empty.c: 18";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 28;
+	};
+	E308A0661216646700EDF5F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E308A0341216601B00EDF5F8 /* empty.h */;
+		name = "empty.h: 10";
+		rLen = 0;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 140;
+		vrLoc = 0;
+	};
+	E308A0671216646700EDF5F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E308A0341216601B00EDF5F8 /* empty.h */;
+		name = "empty.h: 10";
+		rLen = 0;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 140;
+		vrLoc = 0;
 	};
 }
