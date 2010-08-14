@@ -1,0 +1,65 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		E308A00912165D9100EDF5F8 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E308A00B12165D9100EDF5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Jonathan Carnie";
+			};
+			buildConfigurationList = E308A00E12165D9100EDF5F8 /* Build configuration list for PBXProject "SCM Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E308A00912165D9100EDF5F8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E308A00C12165D9100EDF5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E308A00D12165D9100EDF5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E308A00E12165D9100EDF5F8 /* Build configuration list for PBXProject "SCM Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E308A00C12165D9100EDF5F8 /* Debug */,
+				E308A00D12165D9100EDF5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E308A00B12165D9100EDF5F8 /* Project object */;
+}
